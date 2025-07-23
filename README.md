@@ -35,4 +35,20 @@ Welcome to **Invoicy**, a modern web-based invoicing solution built for freelanc
 ---
 
 ## 📁 Folder Structure
-
+/src
+┣ /pages
+┃ ┣ About.jsx
+┃ ┣ Home.jsx
+┃ ┣ Login.jsx
+┃ ┣ SubLogin.jsx
+┃ ┗ Services.jsx
+┣ /components
+┃ ┣ Component.jsx
+┃ ┣ LanguageDropdown.jsx
+┃ ┣ Navbar.jsx
+┃ ┗ Logo.jsx
+┣ /routes
+┃ ┗ Component.route.jsx
+┣ /assets
+┃ ┗ img3.webp
+┗ index.js
