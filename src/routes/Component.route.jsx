@@ -9,7 +9,7 @@ import Services from "../pages/Services"
 
 
 import "../routes/Component.route.css"
-const routee = () => {
+const Routee = () => {
 
 
   return (
@@ -34,4 +34,4 @@ const routee = () => {
   )
 }
 
-export default routee
+export default Routee

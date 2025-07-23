@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Logo.css'; // CSS file you'll create
 
 const Logo = () => {

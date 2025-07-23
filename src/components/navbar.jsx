@@ -3,7 +3,8 @@ import Logo from"./Logo"
 import {useState, useEffect, Fragment } from "react"
 import LanguageDropdown from "./LanguageDropdown";
 
-const navbar = () => {
+import Sunicon from  "../assets/sun-line.svg"
+const Navbar = () => {
  
 const [darkMode, setDarkMode] = useState(false)
  const [rotation, setRotation] = useState(0);
@@ -31,7 +32,7 @@ const handleClick = () => {
             style={{ transform: `rotate(${rotation}deg)` }}
             onClick={handleClick}
           >
-            <img src="src/assets/sun-line.svg" alt="toggle theme" />
+            <img src={Sunicon} alt="toggle theme" />
           </button>
         </div>
         
@@ -42,4 +43,4 @@ const handleClick = () => {
   
 }
 
-export default navbar
+export default Navbar

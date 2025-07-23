@@ -1,8 +1,6 @@
 import "./component.css"
 
-
 import Routee from "../routes/Component.route"
-import { BrowserRouter as Router ,Routes,Route ,Link} from "react-router-dom"
 import '../pages/SubLogin';
 import {  useNavigate } from "react-router-dom"
 const Component = () => {
