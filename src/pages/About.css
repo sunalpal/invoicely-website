@@ -1,0 +1,73 @@
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-header {
+  text-align: center;
+ background: linear-gradient(to bottom, #007EFF, #00BDFF);   
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  color: #ffdd57;
+}
+
+.about-content h2 {
+  margin-top: 2rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.about-content p {
+  margin: 0.5rem 0 1.5rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.about-content li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+}
+
+
+
+
+/* black theme  */
+
+/* Dark Mode Styling */
+body.dark-mode .about-container {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .about-header {
+  background: linear-gradient(to bottom, #1e1e1e, #333333);
+  color: #ffffff;
+}
+
+body.dark-mode .brand {
+  color: #ffdd57;
+}
+
+body.dark-mode .about-content h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .about-content p {
+  color: #dddddd;
+}
+
+body.dark-mode .about-content li {
+  color: #cccccc;
+}

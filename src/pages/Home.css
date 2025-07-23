@@ -1,0 +1,177 @@
+/* Home ka source code */
+
+
+.home-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.brand {
+  font-weight: bold;
+  color: #ffdd57;
+}
+
+.cta-button {
+  background-color: #ffdd57;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f0c400;
+}
+
+/* SHARED SECTIONS */
+.features, .how-it-works, .final-cta {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* HEADINGS */
+.features h2,
+.how-it-works h2,
+.final-cta h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+/* LIST STYLES */
+.features ul,
+.how-it-works ol {
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.features li,
+.how-it-works li {
+  margin-bottom: 0.8rem;
+}
+
+.final-cta {
+  text-align: center;
+}
+
+.final-cta .cta-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.final-cta .cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ RESPONSIVENESS */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .features ul,
+  .how-it-works ol {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  .features h2,
+  .how-it-works h2,
+  .final-cta h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+/* 🌙 DARK MODE STYLES */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #1f1f1f, #333333);
+  color: #ffffff;
+}
+
+body.dark-mode .brand {
+  color: #ffd700; /* golden yellow for contrast */
+}
+
+body.dark-mode .cta-button {
+  background-color: #ffd700;
+  color: #000000;
+}
+
+body.dark-mode .cta-button:hover {
+  background-color: #e6c200;
+}
+
+body.dark-mode .features,
+body.dark-mode .how-it-works,
+body.dark-mode .final-cta {
+  background: rgba(30, 30, 30, 0.8);  /* frosted dark background */
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .features h2,
+body.dark-mode .how-it-works h2,
+body.dark-mode .final-cta h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .features li,
+body.dark-mode .how-it-works li {
+  color: #dddddd;
+}
+
+body.dark-mode .final-cta .cta-button {
+  background-color: #4a90e2;
+  color: white;
+}
+
+body.dark-mode .final-cta .cta-button:hover {
+  background-color: #357ab8;
+}

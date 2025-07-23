@@ -1,0 +1,28 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-box {
+  width: 40px;
+  height: 40px;
+  background-color: #818cf8; /* light indigo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.logo-letter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-text {
+  color: #818cf8;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+}

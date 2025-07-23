@@ -1,0 +1,67 @@
+/* 🌐 Base Styles */
+.services-nav {
+  border-radius: 60px;
+  padding: 16px 36px;
+  width: fit-content;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  transition: all 0.3s ease;
+}
+
+/* 🌞 Light Mode (default) */
+body:not(.dark-mode) .services-nav {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+body:not(.dark-mode) .services-nav a {
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+body:not(.dark-mode) .services-nav a:hover {
+  color: #0066ff;
+  background-color: rgba(0, 102, 255, 0.08);
+  box-shadow: 0 4px 10px rgba(0, 102, 255, 0.1);
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode .services-nav {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .services-nav a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+body.dark-mode .services-nav a:hover {
+  color: #4fa3ff;
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .services-nav {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 12px 24px;
+  }
+}

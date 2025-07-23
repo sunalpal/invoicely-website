@@ -1,0 +1,132 @@
+
+
+.feature-box p {
+  font-size: 1em;
+  color: inherit;  /* ✅ Instead of color: #555; */
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 1em;
+  color: inherit;  /* ✅ Instead of color: #777; */
+}
+
+.feature-box h3 {
+  color: inherit; /* optional: if h3 looks too dark in dark mode */
+}
+
+
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+}
+.btn {
+  background-color: #818CF8;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.feature-box {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+.feature-box h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.feature-box p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Footer */
+h4 {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #777;
+}
+
+/* bbbkhbjkbkjb */
+
+/* 🌙 Dark Mode Fixes for Neumorphic Glass Look */
+body.dark-mode .feature-box {
+  background: rgba(20, 20, 20, 0.7);  /* semi-transparent dark */
+  backdrop-filter: blur(12px);       /* frosted glass effect */
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .btn {
+  background-color: #5a5aff; /* soft glowing blue */
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(90, 90, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .btn:hover {
+  background-color: #3f3fff;
+}
+
+body.dark-mode h1,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode h4 {
+  color: #ffffff;
+}
+
+body.dark-mode .main_div {
+  background: linear-gradient(to bottom right, #0f0f0f, #1c1c1c);
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-box {
+    width: 90%;
+  }
+}
+
+ 

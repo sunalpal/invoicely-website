@@ -1,0 +1,40 @@
+body {
+      background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.navigation{
+    width: 100%;
+    height: 5rem;
+   display: flex;
+   align-items: center;
+   border-radius: 7px;
+   padding: 1rem;
+ justify-content: space-between;
+    background-color: #F0F0F0;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+img{
+    height: 20px;width: 30px;
+}
+button{
+    border: none;
+}
+
+
+.toggle-button {
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+
+.toggle-button.rotate {
+  transform: rotate(360deg);
+}
+
